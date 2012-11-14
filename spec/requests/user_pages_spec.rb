@@ -31,6 +31,8 @@ describe "UserPages" do
         expect { click_button submit }.not_to change(User, :count)
       end 
     end
+    
+    #blah
   
     describe "with valid information" do
       before do
